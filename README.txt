@@ -1,5 +1,9 @@
-FBXExporter : coded as a follow-along course, currently being debugged and modified to work on joint and mesh heirarchies other than
-the configuration used in the course.  Assumptions for current use:
+FBXExporter : 
+TO DO:
+1) Extend to work on characters with nested references
+2) Allow user to tag bind mesh location manually when mesh is not in the expected location in the joint heirarchy
+
+Assumptions for current use:
 1) Works on single-level referenced characters only--not on characters without namespace, and not on characters with nested reference
 2) Works on characters where bind mesh is located within the joint heirarchy where the origin joint is located.  Geo outside that
 heirarchy is not considered.
